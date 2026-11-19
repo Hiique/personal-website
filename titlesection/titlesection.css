@@ -1,0 +1,11 @@
+h1 {
+    text-align: center;
+      color: brown;
+    }
+ button {
+    background-color: brown;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    cursor: pointer;
+  }
