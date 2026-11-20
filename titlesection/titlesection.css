@@ -2,10 +2,11 @@ h1 {
     text-align: center;
       color: brown;
     }
- button {
-    background-color: brown;
-    color: white;
-    border: none;
-    padding: 10px 16px;
+ button:hover {
+    background-color: red;
+    font-size: 20px;
     cursor: pointer;
   }
+#title {
+    text-align: center;
+}
