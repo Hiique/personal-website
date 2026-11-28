@@ -1,14 +1,22 @@
-h1 {
-      color: blue;
-    }
- button:hover {
-    background-color: red;
-    font-size: 20px;
-    cursor: pointer;
-  }
+:root{
+  --titlesectionPrimaryColor: white;
+}
 #title {
+    color: var(--titlesectionPrimaryColor);
     text-align: center;
     padding-top: 200px;
     background-image: url('../images/azim-khan-ronnie-UUgqdCRktNQ-unsplash.jpg');
     background-position: center top;
 }
+.title-section-button{
+      color: var(--titlesectionPrimaryColor);
+border: solid var(--titlesectionPrimaryColor) 1px;
+border-radius: 5px;
+padding: 15px 20px;
+background-color: transparent;
+
+}
+ .title-section-button:hover {
+    background-color: red;
+    cursor: pointer;
+  }
